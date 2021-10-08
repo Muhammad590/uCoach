@@ -1,17 +1,23 @@
 import React from 'react'
-
+import "./Date.css"
 function Date() {
     return (
         <>
-            <div className="container date_main">
+            <div className="container date_main" id="date">
+                {/* <div className="date_child" >
+                    <p className="date_p" >June, 26, 2022</p>
+                </div>
+
+                <div className="date_child" >
+                    <p className="date_p">@ UCOACHU 2022</p>
+                </div> */}
                 <div>
-                    <p>June, 26, 2022</p>
+                    <p className="june" >June, 26, 2022</p>
                 </div>
 
                 <div>
-                    <p>@ UCOACHU 2022</p>
+                    <p className="year">@ UCOACHU 2022</p>
                 </div>
-
 
             </div>
 

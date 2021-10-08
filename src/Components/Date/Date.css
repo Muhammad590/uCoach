@@ -1,0 +1,35 @@
+.date_main{
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    height: 100%;
+    flex-direction: column;
+}
+.date_child{
+    display: flex;
+align-items: center;
+}
+.date_p{
+  
+  
+}
+/* #date{
+    transform: rotate(90deg);
+} */
+.june{
+    transform: rotate(
+90deg);
+    position: absolute;
+    /* bottom: 62px; */
+    top: 79px;
+    width: 100px;
+    margin: 0px;
+}
+.year{
+    margin: 0px;
+    width: 139px;
+    transform: rotate(
+90deg);
+    position: absolute;
+    bottom: 62px;
+}
