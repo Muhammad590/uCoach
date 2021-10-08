@@ -1,7 +1,10 @@
-body{
+.bcg_img{
     background-image: url("../../Images/Group\ 9.png");
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;  
 }
 .home_main{
     margin-top: 3rem;
@@ -19,6 +22,8 @@ body{
     width: 90%;
     margin: 30px auto 0px;
     border: 1px solid #707070;
+    z-index: 2;
+    position: relative;
  
 }
 .black_img{
@@ -44,6 +49,7 @@ body{
     width: 192px;
     position: absolute;
     background: #E21414;
+    z-index: 2;
    top: -80px;
   right: -5%;
 }
@@ -62,11 +68,11 @@ body{
 .image454{
     top: -20px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
 }
 .golf_img{
     width: 100%;
-    height: 400px;
+    height: 59vh;
 }
 .sam_main{
     background: #161616;
@@ -74,6 +80,8 @@ body{
     margin: auto;
     height: 121px;
     margin-top: -50px;
+    position: relative;
+    z-index: 2;
    
 }
 .sam_child{
@@ -96,3 +104,4 @@ body{
         width: 145px;
     }
 }
+

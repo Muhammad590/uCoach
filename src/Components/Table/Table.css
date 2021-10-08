@@ -1,3 +1,11 @@
+.bgd_img{
+    background-image: url("../../Images/Group\ 29.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;  
+}
 .table_black{
     width: 50%;
     height: 194px;
@@ -23,6 +31,9 @@
     justify-content: center;
     margin-top: 5rem;
     font-size: 24px;
+}
+.textss_center{
+    text-align: center;
 }
 .overview_main{
     display: flex;
@@ -58,4 +69,17 @@
     justify-content: center;
     margin-top: 1rem;
     font-size: 24px;
+}
+
+@media screen and (max-width:507px) and (min-width:280px){
+    .none{
+        display: none;
+    }
+    .over_col{
+        width: 50%;
+    } 
+    .textss_center{
+        text-align: end;
+    }
+ 
 }
