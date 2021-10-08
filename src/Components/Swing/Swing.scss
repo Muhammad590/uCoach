@@ -1,0 +1,110 @@
+.swing__container {
+  padding: 3rem 10rem;
+  @media only screen and (max-width: 1055px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 3rem;
+  }
+  .swing__header {
+    font-size: 22px;
+    @media only screen and (max-width: 580px) {
+      font-size: 15px;
+    }
+    .header__heading {
+      font-size: 68px;
+      @media only screen and (max-width: 1055px) {
+        line-height: 51px;
+        margin-bottom: 1rem;
+      }
+      @media only screen and (max-width: 580px) {
+        // line-height: px;
+        font-size: 40px;
+        margin-bottom: 1rem;
+      }
+      @media only screen and (max-width: 375px) {
+        font-size: 30px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .swing__body {
+    display: flex;
+    justify-content: space-between;
+    @media only screen and (max-width: 1055px) {
+      flex-direction: column;
+    }
+    .swing__body__left {
+      margin-top: 1rem;
+      background-color: green;
+      width: 366px;
+      height: 307px;
+      padding: 1rem 2rem;
+      color: white;
+      @media only screen and (max-width: 1055px) {
+        margin-top: 3rem;
+      }
+      .body__left {
+        .left__upper {
+          font-size: 60px;
+          line-height: 74px;
+        }
+        .body__right {
+          font-size: 6rem;
+          text-align: end;
+        }
+      }
+    }
+    .swing__body__right {
+      font-size: 23px;
+      padding: 40px 0;
+      @media only screen and (max-width: 580px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .border1 {
+        border-bottom: 5px solid red;
+        width: 300px;
+        margin: 20px 0;
+      }
+      .border2 {
+        border-bottom: 5px solid yellow;
+        margin: 20px 0;
+        width: 300px;
+      }
+      .border3 {
+        border-bottom: 5px solid green;
+        margin: 20px 0;
+        width: 300px;
+      }
+    }
+  }
+  .swing__footer {
+    margin-top: 4rem;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media only screen and (max-width: 1055px) {
+      margin-top: 3rem;
+      justify-content: center;
+      gap: 2rem;
+    }
+  }
+  .donut__parent {
+    position: relative;
+    margin-bottom: 3rem;
+    .donut__para {
+      position: absolute;
+      background-color: white;
+      padding: 4rem 3.5rem;
+      top: 81px;
+      border-radius: 99px;
+      box-shadow: 0 1px 5px 0px #00000045;
+      left: 73px;
+    }
+  }
+}
