@@ -1,16 +1,11 @@
 .rec__container {
   overflow: hidden;
-  background-image: url("../../Assets/layer1.png");
+  background-image: url("../../Assets/layer2.png");
   background-repeat: no-repeat;
   background-position: unset;
   background-size: cover;
-  .layer {
-    position: absolute;
-    // height: 200%;
-    top: 0;
-    z-index: -200;
-    left: 0%;
-  }
+  z-index: -200;
+
   .rec__header {
     display: flex;
     @media only screen and (max-width: 750px) {
@@ -18,10 +13,13 @@
       flex-direction: column;
       align-items: center;
     }
+    .header__box {
+      z-index: 5;
+    }
     .header__img__div {
       width: 33%;
       margin-left: 36px;
-      z-index: -200;
+
       margin-left: -75px;
       position: relative;
       width: 33%;
