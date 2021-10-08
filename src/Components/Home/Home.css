@@ -1,0 +1,71 @@
+body{
+    background-image: url("../../Images/Group\ 9.png");
+    background-repeat: no-repeat;
+    
+}
+.black_one{
+    background: #161616;
+    height: 282px;
+    width: 80%;
+    border: 1px solid #707070;
+    position: relative;
+}
+.black_img{
+    margin: 41px;
+}
+.black_p{
+    color: white;
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.black_p2{
+    color: white;
+    margin: 0px;
+    font-size: 0.51rem;
+}
+.black_span{
+    font-size: 26px;
+}
+.red_main{
+    position: relative; 
+}
+.red_child1{
+    height: 194px;
+    width: 192px;
+    /* position: absolute; */
+    background: #E21414;
+    /* left: 23%;
+    top: 15%; */
+}
+.red_h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 15px;
+    margin:0px;
+    padding-top: 90px;
+}
+.golf_img{
+    width: 100%;
+}
+.sam_main{
+    background: #161616;
+    width: 80%;
+    height: 121px;
+    /* margin-bottom: 2rem; */
+}
+.sam_child{
+    padding: 20px;
+    padding-left: 30px;
+}
+.sam_h2{
+    color: white;
+    font-size: 36px;
+    margin: 0px;
+    font-weight: 500;
+}
+.sam_p{
+    color: white;
+    font-size: 12px;
+}
