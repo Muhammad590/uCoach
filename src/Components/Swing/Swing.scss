@@ -1,5 +1,20 @@
 .swing__container {
+  position: relative;
   padding: 3rem 10rem;
+  background-image: url("../../Assets/layer2.png");
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-size: cover;
+
+  .layer2 {
+    position: absolute;
+    // overflow: hidden;
+    // height: 100%;
+    top: 0;
+    z-index: -200;
+    left: 0%;
+    object-fit: cover;
+  }
   @media only screen and (max-width: 1055px) {
     display: flex;
     justify-content: center;
@@ -71,7 +86,7 @@
         margin: 20px 0;
       }
       .border2 {
-        border-bottom: 5px solid yellow;
+        border-bottom: 5px solid orange;
         margin: 20px 0;
         width: 300px;
       }

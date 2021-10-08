@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Swing.scss"
+import layer from "../../Assets/layer1.png"
 
 
 import { Doughnut } from 'react-chartjs-2';
@@ -11,17 +12,117 @@ const arr = [
         datasets: [
             {
                 label: '# of Votes',
-                data: [70, 15, 15],
+                data: [60, 15, 25],
                 backgroundColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
 
                 ],
                 borderColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+    },
+    {
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [50, 35, 15],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+    },
+    {
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [30, 60, 10],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+    },
+    {
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [35, 25, 30],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+    },
+    {
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [70, 10, 20],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+    },
+    {
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [10, 40, 50],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
                 ],
                 borderWidth: 1,
             },
@@ -36,13 +137,13 @@ const arr = [
                 backgroundColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
 
                 ],
                 borderColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
                 ],
                 borderWidth: 1,
             },
@@ -53,17 +154,17 @@ const arr = [
         datasets: [
             {
                 label: '# of Votes',
-                data: [70, 15, 15],
+                data: [20, 30, 50],
                 backgroundColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
 
                 ],
                 borderColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
                 ],
                 borderWidth: 1,
             },
@@ -74,17 +175,17 @@ const arr = [
         datasets: [
             {
                 label: '# of Votes',
-                data: [70, 15, 15],
+                data: [25, 35, 40],
                 backgroundColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
 
                 ],
                 borderColor: [
                     'red',
                     'green',
-                    'yellow',
+                    "orange"
                 ],
                 borderWidth: 1,
             },
@@ -96,7 +197,9 @@ const arr = [
 const Swing = () => {
     return (
         <>
+
             <div className="swing__container">
+                {/* <img className="layer2" src={layer} alt="" /> */}
                 <div className="swing__header">
                     <div className="header__heading">Swing Overview</div>
                     <div className="header__para">Sam Savage</div>
