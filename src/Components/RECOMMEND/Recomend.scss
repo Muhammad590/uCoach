@@ -6,9 +6,10 @@
   background-position: unset;
   background-size: cover;
   z-index: -200;
-  background-position: 10px 66%;
+  background-position: 0 -12%;
   padding: 0 6rem;
   position: relative;
+  max-width: 1870px;
   @media only screen and (max-width: 1260px) {
     padding: 0 3rem;
   }
@@ -89,7 +90,7 @@
       .img__border {
         position: absolute;
         height: 230px;
-        border: 7px dashed red;
+        border: 5px dashed red;
         top: 80px;
         left: 251px;
         transform: rotate(20deg);
@@ -98,20 +99,20 @@
         }
         @media only screen and (max-width: 1420px) {
           height: 204px;
-          border: 7px dashed red;
+          border: 5px dashed red;
           top: 73px;
           left: 181px;
           transform: rotate(16deg);
         }
         @media only screen and (max-width: 1100px) {
           height: 180px;
-          border: 7px dashed red;
+          border: 5px dashed red;
           top: 73px;
           left: 146px;
         }
         @media only screen and (max-width: 930px) {
           height: 142px;
-          border: 7px dashed red;
+          border: 5px dashed red;
           top: 51px;
           left: 121px;
         }

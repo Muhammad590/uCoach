@@ -8,6 +8,7 @@
   /* background-attachment: fixed; */
   min-height: 100vh;
   background-position: 0% 88%;
+  max-width: 1800px;
 }
 .address_main {
   /* display: none; */
@@ -37,10 +38,13 @@
   position: absolute;
   top: 150px;
   left: 9%;
-
-  /* right: 78%;
-   bottom: 170px; */
 }
+@media only screen and (max-width: 1055px) {
+  .bl_div {
+    left: 6%;
+  }
+}
+
 .blc_child1 {
 }
 .sp_div {

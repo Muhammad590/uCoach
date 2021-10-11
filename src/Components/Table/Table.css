@@ -8,6 +8,7 @@
   min-height: 100vh;
   background-position: 0 2%;
   background-attachment: fixed;
+  max-width: 1800px;
 }
 .table_black {
   width: 30%;

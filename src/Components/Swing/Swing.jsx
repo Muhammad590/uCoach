@@ -185,6 +185,28 @@ const arr = [
         datasets: [
             {
                 label: '# of Votes',
+                data: [20, 30, 50],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 7"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
                 data: [25, 35, 40],
                 backgroundColor: [
                     'red',
@@ -207,6 +229,72 @@ const arr = [
         datasets: [
             {
                 label: '# of Votes',
+                data: [25, 35, 40],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 8"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [25, 35, 40],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 9"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [25, 35, 40],
+                backgroundColor: [
+                    'red',
+                    'green',
+                    "orange"
+
+                ],
+                borderColor: [
+                    'red',
+                    'green',
+                    "orange"
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 9"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
                 data: [100],
                 backgroundColor: [
 
@@ -219,10 +307,10 @@ const arr = [
                     'green',
 
                 ],
-                borderWidth: 1,
+                borderWidth: 10,
             },
         ],
-        text: "Line 9"
+        text: "Line 1"
     },
 ]
 
@@ -268,7 +356,7 @@ const Swing = () => {
 
                                 <div className="donut__parent">
                                     <p className="donut__para">{val.text}</p>
-                                    <Doughnut style={{ height: "165x", width: "165px" }} data={val} />
+                                    <Doughnut style={{ height: "200px", width: "200px" }} data={val} />
                                 </div>
                             )
                         })

@@ -8,6 +8,7 @@
   background-size: cover;
   z-index: -200;
   background-position: 10px 66%;
+  max-width: 1800px;
 
   @media only screen and (max-width: 1055px) {
     display: flex;
@@ -57,7 +58,7 @@
     .swing__body__left {
       margin-top: 1rem;
       // background-color: #199307;
-      background-image: linear-gradient(180deg, #199307 0%, #338327 100%);
+      background-image: linear-gradient(180deg, #77c969 0%, #199307 100%);
       box-shadow: 7px 31px 15px #0000003d;
       width: 288px;
       height: 306px;
@@ -124,11 +125,11 @@
     .donut__para {
       position: absolute;
       background-color: white;
-      padding: 2.3rem 1.8rem;
-      top: 38px;
+      padding: 3.3rem 2.8rem;
+      top: 41px;
       border-radius: 99px;
       box-shadow: 0 1px 6px 0px #000000a8;
-      left: 33px;
+      left: 35px;
     }
   }
 }
