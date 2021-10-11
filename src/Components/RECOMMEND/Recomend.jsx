@@ -31,6 +31,7 @@ const Recomend = () => {
 
 
                     <div className="header__img__div">
+                        <div className="img__border"></div>
                         <img src={player} alt="" className="header__img" />
                         <div className="img__bottom__para">
                             <p className="bottom__para1">Your Swing</p>

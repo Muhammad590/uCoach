@@ -13,18 +13,22 @@ import Swing from './Components/Swing/Swing.jsx';
 const App = () => {
   return (
     <div className='App'>
-      <Router>
-        <Switch>
+      <Home />
+      <Table />
+      <Swing />
+      <Address />
+      <Recomend />
+      {/* <Router>
 
-          <Route exact path='/' component={Home} />
-          <Route exact path='/date' component={Date} />
-          <Route exact path='/table' component={Table} />
-          <Route exact path='/address' component={Address} />
-          <Route exact path='/recomend' component={Recomend} />
-          <Route exact path='/swing' component={Swing} />
 
-        </Switch>
-      </Router>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/table' component={Table} />
+        <Route exact path='/address' component={Address} />
+        <Route exact path='/recomend' component={Recomend} />
+        <Route exact path='/swing' component={Swing} />
+
+
+      </Router> */}
 
     </div>
   );
