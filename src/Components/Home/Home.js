@@ -11,7 +11,7 @@ function Home() {
             <div className="bcg_img">
 
                 <Row style={{ margin: '0px' }}>
-                    <Col xl={10} lg={10} md={10} sm={10} xs={10} style={{ padding: '0px' }}>
+                    <Col xl={11} lg={11} md={11} sm={11} xs={11} style={{ padding: '0px' }}>
                         <div>
 
 
@@ -51,11 +51,11 @@ function Home() {
                             </div>
 
 
-
+                            <div className="lst_div" ></div>
 
                         </div>
                     </Col>
-                    <Col xl={1} lg={1} md={1} sm={1} xs={1}>  <Date /></Col>
+                    <Col style={{ padding: '0px' }} xl={1} lg={1} md={1} sm={1} xs={1}>  <Date /></Col>
                 </Row>
 
 

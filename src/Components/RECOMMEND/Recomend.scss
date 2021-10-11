@@ -1,19 +1,52 @@
 .rec__container {
+  overflow: hidden;
+  background-image: url("../../Assets/layer2.png");
+  background-repeat: no-repeat;
+  background-position: unset;
+  background-size: cover;
+  z-index: -200;
+
   .rec__header {
     display: flex;
-    flex: 12;
-    // justify-content: center;
-    // flex-direction: column;
+    @media only screen and (max-width: 750px) {
+      // justify-content: center;
+      // flex-direction: column;
+      align-items: center;
+    }
+    .header__box {
+      z-index: 5;
+    }
     .header__img__div {
-      //   flex: 4;
+      width: 33%;
+      margin-left: 36px;
+
+      margin-left: -75px;
+      position: relative;
       width: 33%;
       position: relative;
+      @media only screen and (max-width: 1000px) {
+        margin-left: -45px;
+      }
+      @media only screen and (max-width: 750px) {
+        width: 56%;
+      }
       .header__img {
-        width: 600px;
-        height: 400px;
+        max-width: 100%;
+        width: 100%;
+        /* height: auto; */
+        height: 567px;
+        @media only screen and (max-width: 890px) {
+          height: 465px;
+        }
+        @media only screen and (max-width: 800px) {
+          height: 380px;
+        }
+        @media only screen and (max-width: 400px) {
+          width: 224px;
+        }
       }
       .img__bottom__para {
-        font-size: 12px;
+        font-size: 20px;
         margin-top: 3px;
         display: flex;
         .bottom__para1 {
@@ -23,42 +56,65 @@
           margin: 0;
           position: absolute;
           bottom: 0;
-          right: -50px;
+          right: -75px;
         }
       }
     }
     .header__box {
-      //   position: absolute;
-      //   left: -160px;
-      //   top: 53px;
-      //   flex: 4;
-      width: 33%;
-
+      width: 25%;
+      margin-left: 2rem;
+      margin-top: 5rem;
       padding: 20px;
-      //   width: 191px;
-      height: 194px;
+      height: 300px;
       background-color: #e21414;
       color: white;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      @media only screen and (max-width: 890px) {
+        height: 250px;
+      }
+      @media only screen and (max-width: 750px) {
+        width: 65%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      @media only screen and (max-width: 800px) {
+        height: 199px;
+      }
       .box__heading {
         margin: 0;
-        font-size: 23px;
+        font-size: 35px;
+        @media only screen and (max-width: 1075px) {
+          font-size: 30px;
+        }
+        @media only screen and (max-width: 920px) {
+          font-size: 24px;
+        }
+        @media only screen and (max-width: 650px) {
+          font-size: 18px;
+        }
       }
       .box__heading2 {
         margin: 0;
-        font-size: 23px;
+        font-size: 35px;
+        @media only screen and (max-width: 850px) {
+          font-size: 24px;
+        }
       }
     }
     .box__bottom {
       display: flex;
-      //   justify-content: space-between;
+      justify-content: space-between;
       .box__left {
         margin-top: 30px;
         .box__para {
           margin: 0;
-          font-size: 11px;
+          font-size: 19px;
+          @media only screen and (max-width: 850px) {
+            font-size: 11px;
+          }
         }
       }
       .box__right {
@@ -69,5 +125,51 @@
         }
       }
     }
+  }
+
+  .rec__body {
+    margin: 5rem 4rem;
+    font-size: 2rem;
+    @media only screen and (max-width: 850px) {
+      margin: 3rem 1rem;
+      font-size: 1rem;
+    }
+
+    .body1__heading {
+      font-size: 3.3rem;
+      margin-bottom: 0.3rem;
+      @media only screen and (max-width: 850px) {
+        font-size: 2rem;
+      }
+      @media only screen and (max-width: 580px) {
+        font-size: 1.5rem;
+      }
+    }
+    .body1__para {
+      margin-bottom: 1rem;
+      margin-left: 4rem;
+      @media only screen and (max-width: 580px) {
+        margin-left: 2rem;
+      }
+    }
+    .body2__para {
+      //   margin: 0.3rem 0;
+      margin-bottom: 1rem;
+      margin-left: 4rem;
+    }
+    .body3__para {
+      //   margin: 0.3rem 0;
+      margin-bottom: 1rem;
+      //   margin-left: 4rem;
+      padding-left: 4rem;
+      border-left: 14px solid red;
+    }
+    .body3__div {
+      display: flex;
+    }
+    // .left__border {
+    //   width: 15px;
+    //   border-left: 7px solid red;
+    // }
   }
 }
