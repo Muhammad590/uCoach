@@ -1,6 +1,6 @@
 import React from 'react'
 import player from "../../Assets/recpic.png"
-
+import Date from "../Date/Date"
 import "./Recomend.scss"
 import layer2 from "../../Assets/layer2.png"
 
@@ -8,12 +8,8 @@ const Recomend = () => {
     return (
         <>
             <div className="rec__container">
-                {/* <img className="layer" src={layer2} alt="" /> */}
-
-                {/* <div className="date">
-                    <p className="upper">date</p>
-                    <p className="upper">tiele</p>
-                </div> */}
+                <p className="web__title">@ UCOACHU 2022
+                </p>
                 <div className="rec__header">
 
                     <div className="header__box">
@@ -59,6 +55,7 @@ const Recomend = () => {
                         <div className="body1__heading">How to fix it</div>
                         <div className="body3__div">
                             <div className="left__border"></div>
+
                             <div className="body3__para">A great way to prevent your head from turning too much to the trail side is to hit balls wearing an eye patch over your lead eye. If your head turns too much, you will lose sight of the golf ball.</div>
                         </div>
 
