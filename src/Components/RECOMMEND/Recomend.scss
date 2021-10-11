@@ -5,6 +5,20 @@
   background-position: unset;
   background-size: cover;
   z-index: -200;
+  background-position: 10px 66%;
+
+  .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    // min-height: 200vh;
+    .upper {
+      transform: rotate(90deg);
+    }
+  }
 
   .rec__header {
     display: flex;

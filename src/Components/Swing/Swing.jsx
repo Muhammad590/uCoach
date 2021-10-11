@@ -5,6 +5,8 @@ import layer from "../../Assets/layer1.png"
 
 import { Doughnut } from 'react-chartjs-2';
 
+import Date from "../Date/Date"
+
 // const data =
 
 const arr = [
@@ -27,6 +29,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 0"
     },
     {
         datasets: [
@@ -47,6 +50,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 1"
     },
     {
         datasets: [
@@ -67,6 +71,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 2"
     },
     {
         datasets: [
@@ -87,6 +92,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 3"
     },
     {
         datasets: [
@@ -107,6 +113,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 4"
     },
     {
         datasets: [
@@ -127,6 +134,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 5"
     },
     {
 
@@ -148,6 +156,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 6"
     },
     {
 
@@ -169,6 +178,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 7"
     },
     {
 
@@ -190,6 +200,29 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 8"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [100],
+                backgroundColor: [
+
+                    'green',
+
+
+                ],
+                borderColor: [
+
+                    'green',
+
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 9"
     },
 ]
 
@@ -199,7 +232,9 @@ const Swing = () => {
         <>
 
             <div className="swing__container">
-                {/* <img className="layer2" src={layer} alt="" /> */}
+                <div className="date__component">
+                    <Date />
+                </div>
                 <div className="swing__header">
                     <div className="header__heading">Swing Overview</div>
                     <div className="header__para">Sam Savage</div>
@@ -232,8 +267,8 @@ const Swing = () => {
                             return (
 
                                 <div className="donut__parent">
-                                    <p className="donut__para">Line 0</p>
-                                    <Doughnut data={val} />
+                                    <p className="donut__para">{val.text}</p>
+                                    <Doughnut style={{ height: "165x", width: "165px" }} data={val} />
                                 </div>
                             )
                         })

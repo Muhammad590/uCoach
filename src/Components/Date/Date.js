@@ -4,15 +4,9 @@ function Date() {
     return (
         <>
             <div className="container date_main" id="date">
-                {/* <div className="date_child" >
-                    <p className="date_p" >June, 26, 2022</p>
-                </div>
 
-                <div className="date_child" >
-                    <p className="date_p">@ UCOACHU 2022</p>
-                </div> */}
                 <div>
-                    <p className="june" >June, 26, 2022</p>
+                    <p className="june" >June . 26 . 2022</p>
                 </div>
 
                 <div>

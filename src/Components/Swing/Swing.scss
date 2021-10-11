@@ -6,6 +6,7 @@
   background-position: unset;
   background-size: cover;
   z-index: -200;
+  background-position: 10px 66%;
 
   @media only screen and (max-width: 1055px) {
     display: flex;
@@ -14,13 +15,23 @@
     align-items: center;
     padding: 1rem 3rem;
   }
+  // @media only screen and (max-width: 715px) {
+  //   background-position: 10px 66%;
+  // }
+  .date__component {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 14px 0;
+    bottom: 0;
+  }
   .swing__header {
-    font-size: 22px;
+    font-size: 19px;
     @media only screen and (max-width: 580px) {
       font-size: 15px;
     }
     .header__heading {
-      font-size: 68px;
+      font-size: 57px;
       @media only screen and (max-width: 1055px) {
         line-height: 51px;
         margin-bottom: 1rem;
@@ -44,9 +55,11 @@
     }
     .swing__body__left {
       margin-top: 1rem;
-      background-color: green;
-      width: 366px;
-      height: 307px;
+      // background-color: #199307;
+      background-image: linear-gradient(180deg, #199307 0%, #338327 100%);
+      box-shadow: 7px 31px 15px #0000003d;
+      width: 288px;
+      height: 306px;
       padding: 1rem 2rem;
       color: white;
       @media only screen and (max-width: 1055px) {
@@ -55,11 +68,12 @@
       .body__left {
         .left__upper {
           font-size: 60px;
-          line-height: 74px;
+          line-height: 71px;
         }
         .body__right {
           font-size: 6rem;
           text-align: end;
+          line-height: 163px;
         }
       }
     }
@@ -73,45 +87,47 @@
         align-items: center;
       }
       .border1 {
-        border-bottom: 5px solid red;
+        border-bottom: 9px solid red;
         width: 300px;
         margin: 20px 0;
       }
       .border2 {
-        border-bottom: 5px solid orange;
+        border-bottom: 9px solid orange;
         margin: 20px 0;
         width: 300px;
       }
       .border3 {
-        border-bottom: 5px solid green;
+        border-bottom: 9px solid #199307;
         margin: 20px 0;
         width: 300px;
       }
     }
   }
   .swing__footer {
+    margin: 0 4rem;
     margin-top: 4rem;
-    height: 150px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     @media only screen and (max-width: 1055px) {
       margin-top: 3rem;
       justify-content: center;
-      gap: 2rem;
+      gap: 4rem;
     }
   }
   .donut__parent {
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 0.7rem;
+    margin-right: 3rem;
+
     .donut__para {
       position: absolute;
       background-color: white;
-      padding: 4rem 3.5rem;
-      top: 81px;
+      padding: 2.3rem 1.8rem;
+      top: 38px;
       border-radius: 99px;
-      box-shadow: 0 1px 5px 0px #00000045;
-      left: 73px;
+      box-shadow: 0 1px 6px 0px #000000a8;
+      left: 33px;
     }
   }
 }

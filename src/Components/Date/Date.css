@@ -5,45 +5,43 @@
     height: max-content;
     flex-direction: column;
 }
-.date_child{
-    display: flex;
-align-items: center;
+.date_child {
+  display: flex;
+  align-items: center;
 }
-.date_p{
-  
-  
+.date_p {
 }
 /* #date{
     transform: rotate(90deg);
 } */
-.june{
-    transform: rotate(
-90deg);
-    position: absolute;
-    /* bottom: 62px; */
-    top: 79px;
-    width: 139px;
-    margin: 0px;
-    right: -13px;
+.june {
+  transform: rotate(90deg);
+  position: absolute;
+  /* bottom: 62px; */
+  top: 79px;
+  width: 139px;
+  margin: 0px;
+  right: -13px;
 }
-.year{
-    margin: 0px;
-    width: 139px;
-    transform: rotate(
-90deg);
-    position: absolute;
-    bottom: 62px;
-    right: -13px;
+.year {
+  margin: 0px;
+  width: 139px;
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 62px;
+  right: -13px;
 }
 
-@media screen and (min-width:550px) and (max-width:815px) {
-    .june,.year{
-  right: -40px;
-    }
+@media screen and (min-width: 550px) and (max-width: 815px) {
+  .june,
+  .year {
+    right: -40px;
   }
+}
 
-  @media screen and (min-width:320px) and (max-width:549px) {
-    .june,.year{
-  right: -55px;
-    }
+@media screen and (min-width: 320px) and (max-width: 549px) {
+  .june,
+  .year {
+    right: -55px;
   }
+}
