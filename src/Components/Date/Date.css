@@ -1,7 +1,7 @@
 .date_main{
     display: flex;
     justify-content: space-between;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     height: max-content;
     flex-direction: column;
 }

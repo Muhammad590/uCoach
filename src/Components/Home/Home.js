@@ -5,6 +5,8 @@ import line from "../../Images/Group 39.png"
 import golf from "../../Images/Group 34.png"
 import Date from "../Date/Date"
 import liness from "../../Images/Group 9.png"
+import Address from '../Address/Address'
+import Table from '../Table/Table'
 function Home() {
     return (
         <>
@@ -12,7 +14,7 @@ function Home() {
 
                 <Row style={{ margin: '0px' }}>
                     <Col xl={11} lg={11} md={11} sm={11} xs={11} style={{ padding: '0px' }}>
-                        <div>
+                        <div style={{ paddingTop: '2rem' }}>
 
 
                             <div className="black_one">
@@ -60,6 +62,8 @@ function Home() {
 
 
             </div>
+            <Table />
+            <Address />
         </>
     )
 }

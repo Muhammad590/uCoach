@@ -18,71 +18,102 @@ function Table() {
                             {/* black div */}
                             <div className="table_black">
                                 <div className="table_child1">
-                                    <h3 className="table_h3">Table of contents</h3>
+                                    <h3 className="table_h3">Table of
+                                        <br /> contents</h3>
                                 </div>
 
                             </div>
 
                             {/* Swing overview */}
-                            <div className="swing_main">
-                                <h2>Swing Overview</h2>
-                            </div>
+                            <Row>
+                                <Col xl={1} lg={1} md={3} sm={3} xs={3}></Col>
+                                <Col xl={5} lg={5} md={5} sm={6} xs={6}>
+                                    <div className="swing_main">
+                                        <h2>Swing Overview</h2>
+                                    </div>
+                                </Col>
+                                <Col xl={6} lg={6} md={6} sm={6} xs={6}></Col>
+
+                            </Row>
+
 
                             <Row style={{ margin: "0px" }}>
-                                <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+
+                                <Col xl={2} lg={2} md={2} sm={5} xs={4} className="none"></Col>
                                 <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
                                     <div className="textss_center">Overview</div>
                                 </Col>
-                                <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
+                                <Col xl={7} lg={7} md={7} sm={4} xs={3} style={{ padding: "0px" }}>
                                     <div className="line_d">
                                         <hr className="hr"></hr>
                                     </div>
                                 </Col>
                                 <Col xl={1} lg={1} md={1} sm={1} xs={1}>
-                                    <div>1</div>
+                                    <div className="textss_centers">1</div>
                                 </Col>
                             </Row>
 
 
+
+
                             {/* line overwiew */}
-                            <div className="line_main">
-                                <h2>Line Overview</h2>
-                            </div>
+                            <Row>
+                                <Col xl={1} lg={1} md={3} sm={3} xs={3}></Col>
+                                <Col xl={5} lg={5} md={5} sm={6} xs={6}>
+
+                                    <div className="line_main">
+                                        <h2>Line Overview</h2>
+                                    </div>
+                                </Col>
+                                <Col xl={6} lg={6} md={6} sm={6} xs={6}></Col>
+
+                            </Row>
+
 
                             {item.map((ite, index) => (
                                 <Row style={{ margin: "0px" }}>
-                                    <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+                                    <Col xl={2} lg={2} md={2} sm={2} xs={4} className="none"></Col>
                                     <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
                                         <div className="textss_center">{ite.line}</div>
                                     </Col>
-                                    <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
+                                    <Col xl={7} lg={7} md={7} sm={7} xs={3} style={{ padding: "0px" }}>
                                         <div className="line_d">
                                             <hr className="hr"></hr>
                                         </div>
                                     </Col>
                                     <Col xl={1} lg={1} md={1} sm={1} xs={1}>
-                                        <div>{ite.num}</div>
+                                        <div className="textss_centers">{ite.num}</div>
                                     </Col>
                                 </Row>))}
 
 
-                            <div className="line_main">
-                                <h2>Recommended Fixes</h2>
-                            </div>
+                            <Row>
+                                <Col xl={1} lg={1} md={3} sm={3} xs={3}></Col>
+                                <Col xl={5} lg={5} md={5} sm={6} xs={6}>
+
+                                    <div className="line_main">
+                                        <h2>Recommended Fixes</h2>
+                                    </div>
+
+                                </Col>
+                                <Col xl={6} lg={6} md={6} sm={6} xs={6}></Col>
+
+                            </Row>
+
 
                             {data.map((dat, index) => (
                                 <Row style={{ margin: "0px" }}>
-                                    <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+                                    <Col xl={2} lg={2} md={2} sm={2} xs={4} className="none"></Col>
                                     <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
                                         <div className="textss_center">{dat.line}</div>
                                     </Col>
-                                    <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
+                                    <Col xl={7} lg={7} md={7} sm={7} xs={3} style={{ padding: "0px" }}>
                                         <div className="line_d">
                                             <hr className="hr"></hr>
                                         </div>
                                     </Col>
                                     <Col xl={1} lg={1} md={1} sm={1} xs={1}>
-                                        <div>{dat.num}</div>
+                                        <div className="textss_centers">{dat.num}</div>
                                     </Col>
                                 </Row>))}
 
@@ -96,6 +127,7 @@ function Table() {
                     </Row>
 
                 </div>
+
             </div>
 
         </>

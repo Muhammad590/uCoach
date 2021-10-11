@@ -9,32 +9,34 @@
     background-attachment: fixed;
 }
 .table_black{
-    width: 50%;
-    height: 194px;
+    width: 30%;
+    height: 350px;
     background: #161616;
     box-shadow: 15px 14px 13px 15px rgba(0,0,0,0.2);
     -webkit-box-shadow: 0px 24px 13px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 15px 14px 13px 15px rgba(0,0,0,0.2);
 }
-
+.none{
+    width: 150px;
+}
 .tble{
     padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 .table_child1{
-    padding: 20px;
-    padding-top: 90px;
+    padding: 30px;
+    padding-top: 16rem;
 }
 .table_h3{
     color: white;
     font-size: 30px;
 }
 .swing_main{
-    display: flex;
-    justify-content: center;
+
     margin-top: 5rem;
     font-size: 24px;
 }
-.textss_center{
+.textss_centers{
     text-align: center;
 }
 .overview_main{
@@ -67,8 +69,7 @@
     
 }
 .line_main{
-    display: flex;
-    justify-content: center;
+
     margin-top: 1rem;
     font-size: 24px;
 }
@@ -85,3 +86,27 @@
     }
  
 }
+@media screen and (min-width:470px) and (max-width:1024px) {
+.bgd_img{
+    background-position: 0px 19%;
+}
+ 
+}
+@media screen and (min-width:405px) and (max-width:469px) {
+    .bgd_img{
+        background-position: -63px 0%;
+    }
+     
+    }
+    @media screen and (min-width:380px) and (max-width:404px) {
+        .bgd_img{
+            background-position: -90px 0%;
+        }
+         
+        }
+        @media screen and (min-width:360px) and (max-width:379px) {
+            .bgd_img{
+                background-position: -110px 0%;
+            }
+             
+            }
