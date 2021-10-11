@@ -4,7 +4,9 @@ import { Row, Col } from "react-bootstrap"
 import line from "../../Images/Group 39.png"
 import golf from "../../Images/Group 34.png"
 import Date from "../Date/Date"
-import liness from "../../Images/Group 9.png"
+import liness from "../../Images/lines.jpg"
+import Address from '../Address/Address'
+import Table from '../Table/Table'
 function Home() {
     return (
         <>
@@ -12,7 +14,7 @@ function Home() {
 
                 <Row style={{ margin: '0px' }}>
                     <Col xl={11} lg={11} md={11} sm={11} xs={11} style={{ padding: '0px' }}>
-                        <div>
+                        <div style={{ paddingTop: '4rem', paddingBottom: '4rem' }}>
 
 
                             <div className="black_one">
@@ -29,7 +31,7 @@ function Home() {
                             {/* img golf */}
                             <div className="image-wrapper">
                                 <div className="image454">
-                                    <img className="golf_img" src={golf} />
+                                    <img className="golf_img" src={liness} />
                                 </div>
 
                                 {/* red div */}
@@ -60,6 +62,8 @@ function Home() {
 
 
             </div>
+            {/* <Table />
+            <Address /> */}
         </>
     )
 }

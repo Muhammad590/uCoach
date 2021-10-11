@@ -4,13 +4,14 @@
     background-size: cover;
     width: 100%;
     position: relative;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     min-height: 100vh;
     background-position: 0% 88%;
 
 }
 .address_main{
-    display: none;
+    /* display: none; */
+    padding-bottom: 2rem;
 }
 .img_div{
     display: flex;
@@ -35,7 +36,7 @@ position: relative;
    width: 200px;
    position: absolute;
    top: 150px;
-   left: 8%;
+   left: 9%;
 
    /* right: 78%;
    bottom: 170px; */

@@ -6,7 +6,7 @@ function Date() {
             <div className="container date_main" id="date">
 
                 <div>
-                    <p className="june" >June, 26, 2022</p>
+                    <p className="june" >June . 26 . 2022</p>
                 </div>
 
                 <div>
