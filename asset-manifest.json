@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ucoach/static/css/main.5fe961c6.chunk.css",
+    "main.js": "/ucoach/static/js/main.ec561ff3.chunk.js",
+    "main.js.map": "/ucoach/static/js/main.ec561ff3.chunk.js.map",
+    "runtime-main.js": "/ucoach/static/js/runtime-main.1ccf55e8.js",
+    "runtime-main.js.map": "/ucoach/static/js/runtime-main.1ccf55e8.js.map",
+    "static/js/2.3d3caf24.chunk.js": "/ucoach/static/js/2.3d3caf24.chunk.js",
+    "static/js/2.3d3caf24.chunk.js.map": "/ucoach/static/js/2.3d3caf24.chunk.js.map",
+    "static/js/3.0da176e8.chunk.js": "/ucoach/static/js/3.0da176e8.chunk.js",
+    "static/js/3.0da176e8.chunk.js.map": "/ucoach/static/js/3.0da176e8.chunk.js.map",
+    "index.html": "/ucoach/index.html",
+    "static/css/main.5fe961c6.chunk.css.map": "/ucoach/static/css/main.5fe961c6.chunk.css.map",
+    "static/js/2.3d3caf24.chunk.js.LICENSE.txt": "/ucoach/static/js/2.3d3caf24.chunk.js.LICENSE.txt",
+    "static/media/Table.css": "/ucoach/static/media/Group 29.28733286.png",
+    "static/media/Home.css": "/ucoach/static/media/Group 31.fb0d9a71.png",
+    "static/media/Group 34.75b2380a.png": "/ucoach/static/media/Group 34.75b2380a.png",
+    "static/media/Group 39.54a19751.png": "/ucoach/static/media/Group 39.54a19751.png",
+    "static/media/Address.css": "/ucoach/static/media/Group 9.3f025dc5.png",
+    "static/media/Swing.scss": "/ucoach/static/media/layer1.463561b4.png",
+    "static/media/Recomend.scss": "/ucoach/static/media/layer2.d8020850.png",
+    "static/media/lines.5bb7e48b.jpg": "/ucoach/static/media/lines.5bb7e48b.jpg",
+    "static/media/recpic.e56cc9fd.png": "/ucoach/static/media/recpic.e56cc9fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ccf55e8.js",
+    "static/js/2.3d3caf24.chunk.js",
+    "static/css/main.5fe961c6.chunk.css",
+    "static/js/main.ec561ff3.chunk.js"
+  ]
+}
