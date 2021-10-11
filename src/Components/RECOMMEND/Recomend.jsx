@@ -9,6 +9,11 @@ const Recomend = () => {
         <>
             <div className="rec__container">
                 {/* <img className="layer" src={layer2} alt="" /> */}
+
+                {/* <div className="date">
+                    <p className="upper">date</p>
+                    <p className="upper">tiele</p>
+                </div> */}
                 <div className="rec__header">
 
                     <div className="header__box">

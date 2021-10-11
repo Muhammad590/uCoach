@@ -5,6 +5,8 @@ import layer from "../../Assets/layer1.png"
 
 import { Doughnut } from 'react-chartjs-2';
 
+import Date from "../Date/Date"
+
 // const data =
 
 const arr = [
@@ -230,7 +232,9 @@ const Swing = () => {
         <>
 
             <div className="swing__container">
-                {/* <img className="layer2" src={layer} alt="" /> */}
+                <div className="date__component">
+                    <Date />
+                </div>
                 <div className="swing__header">
                     <div className="header__heading">Swing Overview</div>
                     <div className="header__para">Sam Savage</div>
@@ -264,7 +268,7 @@ const Swing = () => {
 
                                 <div className="donut__parent">
                                     <p className="donut__para">{val.text}</p>
-                                    <Doughnut style={{ height: "180px", width: "180px" }} data={val} />
+                                    <Doughnut style={{ height: "165x", width: "165px" }} data={val} />
                                 </div>
                             )
                         })
