@@ -27,6 +27,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 0"
     },
     {
         datasets: [
@@ -47,6 +48,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 1"
     },
     {
         datasets: [
@@ -67,6 +69,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 2"
     },
     {
         datasets: [
@@ -87,6 +90,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 3"
     },
     {
         datasets: [
@@ -107,6 +111,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 4"
     },
     {
         datasets: [
@@ -127,6 +132,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 5"
     },
     {
 
@@ -148,6 +154,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 6"
     },
     {
 
@@ -169,6 +176,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 7"
     },
     {
 
@@ -190,6 +198,29 @@ const arr = [
                 borderWidth: 1,
             },
         ],
+        text: "Line 8"
+    },
+    {
+
+        datasets: [
+            {
+                label: '# of Votes',
+                data: [100],
+                backgroundColor: [
+
+                    'green',
+
+
+                ],
+                borderColor: [
+
+                    'green',
+
+                ],
+                borderWidth: 1,
+            },
+        ],
+        text: "Line 9"
     },
 ]
 
@@ -232,8 +263,8 @@ const Swing = () => {
                             return (
 
                                 <div className="donut__parent">
-                                    <p className="donut__para">Line 0</p>
-                                    <Doughnut data={val} />
+                                    <p className="donut__para">{val.text}</p>
+                                    <Doughnut style={{ height: "180px", width: "180px" }} data={val} />
                                 </div>
                             )
                         })
