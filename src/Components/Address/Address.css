@@ -1,3 +1,17 @@
+.b_img{
+    background-image: url("../../Images/Group\ 9.png");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-position: 0% 88%;
+
+}
+.address_main{
+    display: none;
+}
 .img_div{
     display: flex;
     justify-content: end;

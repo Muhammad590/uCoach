@@ -10,94 +10,95 @@ function Table() {
     const [data, setData] = useState([{ line: "Fix 1", num: "12" }, { line: "Fix 2", num: "13" }, { line: "Fix 3", num: "14" }])
     return (
         <>
+            <div className="bgd_img">
 
-            <div className="container tble">
-                <Row>
-                    <Col xl={11} lg={11} md={11} sm={11}>
-                        {/* black div */}
-                        <div className="table_black">
-                            <div className="table_child1">
-                                <h3 className="table_h3">Table of contents</h3>
+                <div className="container tble">
+                    <Row>
+                        <Col xl={11} lg={11} md={11} sm={11} xs={11}>
+                            {/* black div */}
+                            <div className="table_black">
+                                <div className="table_child1">
+                                    <h3 className="table_h3">Table of contents</h3>
+                                </div>
+
                             </div>
 
-                        </div>
+                            {/* Swing overview */}
+                            <div className="swing_main">
+                                <h2>Swing Overview</h2>
+                            </div>
 
-                        {/* Swing overview */}
-                        <div className="swing_main">
-                            <h2>Swing Overview</h2>
-                        </div>
-
-                        <Row style={{ margin: "0px" }}>
-                            <Col xl={5} lg={5} md={5} sm={5}></Col>
-                            <Col xl={2} lg={2} md={2} sm={2} className="over_col" style={{ padding: "0px" }}>
-                                <div className="text-center">Overview</div>
-                            </Col>
-                            <Col xl={4} lg={4} md={4} sm={4} style={{ padding: "0px" }}>
-                                <div className="line_d">
-                                    <hr className="hr"></hr>
-                                </div>
-                            </Col>
-                            <Col xl={1} lg={1} md={1} sm={1} >
-                                <div>1</div>
-                            </Col>
-                        </Row>
-
-
-                        {/* line overwiew */}
-                        <div className="line_main">
-                            <h2>Line Overview</h2>
-                        </div>
-
-                        {item.map((ite, index) => (
                             <Row style={{ margin: "0px" }}>
-                                <Col xl={5} lg={5} md={5} sm={5}></Col>
-                                <Col xl={2} lg={2} md={2} sm={2} className="over_col" style={{ padding: "0px" }}>
-                                    <div className="text-center">{ite.line}</div>
+                                <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+                                <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
+                                    <div className="textss_center">Overview</div>
                                 </Col>
-                                <Col xl={4} lg={4} md={4} sm={4} style={{ padding: "0px" }}>
+                                <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
                                     <div className="line_d">
                                         <hr className="hr"></hr>
                                     </div>
                                 </Col>
-                                <Col xl={1} lg={1} md={1} sm={1} >
-                                    <div>{ite.num}</div>
+                                <Col xl={1} lg={1} md={1} sm={1} xs={1}>
+                                    <div>1</div>
                                 </Col>
-                            </Row>))}
+                            </Row>
 
 
-                        <div className="line_main">
-                            <h2>Recommended Fixes</h2>
-                        </div>
+                            {/* line overwiew */}
+                            <div className="line_main">
+                                <h2>Line Overview</h2>
+                            </div>
 
-                        {data.map((dat, index) => (
-                            <Row style={{ margin: "0px" }}>
-                                <Col xl={5} lg={5} md={5} sm={5}></Col>
-                                <Col xl={2} lg={2} md={2} sm={2} className="over_col" style={{ padding: "0px" }}>
-                                    <div className="text-center">{dat.line}</div>
-                                </Col>
-                                <Col xl={4} lg={4} md={4} sm={4} style={{ padding: "0px" }}>
-                                    <div className="line_d">
-                                        <hr className="hr"></hr>
-                                    </div>
-                                </Col>
-                                <Col xl={1} lg={1} md={1} sm={1} >
-                                    <div>{dat.num}</div>
-                                </Col>
-                            </Row>))}
+                            {item.map((ite, index) => (
+                                <Row style={{ margin: "0px" }}>
+                                    <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+                                    <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
+                                        <div className="textss_center">{ite.line}</div>
+                                    </Col>
+                                    <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
+                                        <div className="line_d">
+                                            <hr className="hr"></hr>
+                                        </div>
+                                    </Col>
+                                    <Col xl={1} lg={1} md={1} sm={1} xs={1}>
+                                        <div>{ite.num}</div>
+                                    </Col>
+                                </Row>))}
+
+
+                            <div className="line_main">
+                                <h2>Recommended Fixes</h2>
+                            </div>
+
+                            {data.map((dat, index) => (
+                                <Row style={{ margin: "0px" }}>
+                                    <Col xl={5} lg={5} md={5} sm={5} xs={4} className="none"></Col>
+                                    <Col xl={2} lg={2} md={2} sm={2} xs={5} className="over_col" style={{ padding: "0px" }}>
+                                        <div className="textss_center">{dat.line}</div>
+                                    </Col>
+                                    <Col xl={4} lg={4} md={4} sm={4} xs={3} style={{ padding: "0px" }}>
+                                        <div className="line_d">
+                                            <hr className="hr"></hr>
+                                        </div>
+                                    </Col>
+                                    <Col xl={1} lg={1} md={1} sm={1} xs={1}>
+                                        <div>{dat.num}</div>
+                                    </Col>
+                                </Row>))}
 
 
 
-                    </Col>
+                        </Col>
 
-                    <Col xl={1} lg={1} md={1} sm={1} xs={1}>
-                        <Date />
-                    </Col>
-                </Row>
+                        <Col xl={1} lg={1} md={1} sm={1} xs={1}>
+                            <Date />
+                        </Col>
+                    </Row>
 
+                </div>
             </div>
 
         </>
     )
 }
-
 export default Table

@@ -51,7 +51,7 @@ const Recomend = () => {
                         <div className="body2__para">When your head is turned too far to the trail side, it will encourage an over-rotation of your shoulders. It can also affect your vision of the ball especially if you are right- eye dominant.</div>
                     </div>
                     <div className="rec__body3">
-                        <div className="body1__heading">Context</div>
+                        <div className="body1__heading">How to fix it</div>
                         <div className="body3__div">
                             <div className="left__border"></div>
                             <div className="body3__para">A great way to prevent your head from turning too much to the trail side is to hit balls wearing an eye patch over your lead eye. If your head turns too much, you will lose sight of the golf ball.</div>
