@@ -288,7 +288,7 @@ const arr = [
                 borderWidth: 1,
             },
         ],
-        text: "Line 9"
+        text: "Line 10"
     },
     {
 
@@ -310,7 +310,7 @@ const arr = [
                 borderWidth: 10,
             },
         ],
-        text: "Line 1"
+        text: "Line 11"
     },
 ]
 

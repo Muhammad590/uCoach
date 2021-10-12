@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import Home from "./Components/Home/Home.js"
 import Date from "./Components/Date/Date.js"
 import Table from "./Components/Table/Table.js"

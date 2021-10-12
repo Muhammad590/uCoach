@@ -1,9 +1,9 @@
-.date_main{
-    display: flex;
-    justify-content: space-between;
-    /* min-height: 100vh; */
-    height: max-content;
-    flex-direction: column;
+.date_main {
+  display: flex;
+  justify-content: space-between;
+  /* min-height: 100vh; */
+  height: max-content;
+  flex-direction: column;
 }
 .date_child {
   display: flex;
@@ -19,13 +19,13 @@
   position: absolute;
   /* bottom: 62px; */
   top: 79px;
-  width: 139px;
+  width: 160px;
   margin: 0px;
   right: -13px;
 }
 .year {
   margin: 0px;
-  width: 139px;
+  width: 160px;
   transform: rotate(90deg);
   position: absolute;
   bottom: 62px;

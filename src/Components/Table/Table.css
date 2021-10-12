@@ -122,7 +122,7 @@
     height: 260px;
   }
   .table_h3 {
-    font-size: 35px;
+    font-size: 28px;
   }
   .table_child1 {
     padding-top: 10rem;
@@ -133,7 +133,7 @@
     height: 205px;
   }
   .table_h3 {
-    font-size: 25px;
+    font-size: 20px;
   }
   .table_child1 {
     padding-top: 6.5rem;
@@ -166,5 +166,6 @@
   }
   .textss_center {
     text-align: center;
+    font-size: 12px;
   }
 }

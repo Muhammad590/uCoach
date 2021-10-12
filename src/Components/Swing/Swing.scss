@@ -15,7 +15,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 1rem 0rem;
   }
   // @media only screen and (max-width: 715px) {
   //   background-position: 10px 66%;
@@ -43,8 +43,8 @@
         font-size: 40px;
         margin-bottom: 1rem;
       }
-      @media only screen and (max-width: 375px) {
-        font-size: 30px;
+      @media only screen and (max-width: 405px) {
+        font-size: 33px;
         margin-bottom: 1rem;
       }
     }
@@ -125,11 +125,17 @@
     .donut__para {
       position: absolute;
       background-color: white;
-      padding: 3.3rem 2.8rem;
-      top: 41px;
+      /* padding: 3.3rem 2.8rem; */
+      top: 46px;
+      height: 119px;
       border-radius: 99px;
       box-shadow: 0 1px 6px 0px #000000a8;
-      left: 35px;
+      left: 38px;
+      width: 122px;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+      align-items: center;
     }
   }
 }
