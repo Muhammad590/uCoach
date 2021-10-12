@@ -6,8 +6,6 @@
   position: relative;
   min-height: 100vh;
   background-position: 53px -2%;
-  margin-bottom: 2rem;
-  max-width: 1800px;
 }
 .home_main {
   margin-top: 3rem;
@@ -115,11 +113,33 @@
 @media screen and (max-width: 450px) and (min-width: 280px) {
   .red_child1 {
     width: 145px;
+    height: 145px;
+  }
+  .red_h4 {
+    padding-top: 55px;
   }
 }
 @media screen and (max-width: 1024px) {
   .lst_div {
     margin-bottom: 0px;
+  }
+  .sam_main {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .sam_main {
+    margin-left: 15px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .black_one {
+    margin: 30px 40px 0px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .black_one {
+    margin: 30px 20px 0px;
   }
 }
 
